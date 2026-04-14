@@ -6,16 +6,9 @@
 
 body {
 font-family: Arial, sans-serif;
-background: #ffffff;
+background: #fbf7d2;
 color: #1c1c1c;
 }
-
-.main-container {
-max-width: 1200px;
-margin: 0 auto;
-background: #f5f1c8;
-}
-
 
 .container {
 max-width: 1200px;
