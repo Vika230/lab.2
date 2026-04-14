@@ -6,9 +6,16 @@
 
 body {
 font-family: Arial, sans-serif;
-background: #f5f1c8;
+background: #ffffff;
 color: #1c1c1c;
 }
+
+.main-container {
+max-width: 1200px;
+margin: 0 auto;
+background: #f5f1c8;
+}
+
 
 .container {
 max-width: 1200px;
@@ -26,7 +33,9 @@ align-items: center;
 .nav a {
 margin-left: 15px;
 text-decoration: none;
-color: black;
+color: #000000;
+font-family: "Noto Serif Georgian",serif;
+
 }
 
 .hero {
@@ -39,10 +48,21 @@ margin-top: 40px;
 .hero-text h1 {
 font-size: 48px;
 color: navy;
+font-family: "Noto Serif Georgian",serif;
 }
 
-.hero-text button {
-margin-top: 10px;
+.hero-text p{
+    margin-top: 8px;
+    font-size: 20px;
+    font-family: "Noto Serif Georgian",serif;
+
+}
+
+.hero-text button{
+    margin-top: 8px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Noto Serif Georgian",serif;
 padding: 10px 20px;
 background: #e6d96c;
 border: none;
@@ -50,8 +70,8 @@ cursor: pointer;
 }
 
 .hero-img img {
-width: 250px;
-height: 250px;
+width: 300px;
+height: 300px;
 object-fit: cover;
 border-radius: 50%;
 }
@@ -85,18 +105,49 @@ border-radius: 10px;
 }
 
 .card h3 {
-margin-top: 10px;
+margin-top: 40px;
+font-family: "Noto Serif Georgian",serif;
+
 }
 
 .card p {
 margin-top: 8px;
-font-size: 14px;
+font-size: 20px;
 line-height: 1.4;
+font-family: "Noto Serif Georgian",serif;
+}
+
+.about p{
+    margin-top: 8px;
+    font-size: 20px;
+    font-family: "Noto Serif Georgian",serif;
 }
 
 .contact {
-margin-top: 40px;
+    margin-top: 40px;
+    font-family: "Noto Serif Georgian",serif;
+    font-size: 20px;
 }
+
+.contact h2{    
+font-size: 40px;
+margin-bottom: 10px;
+color: navy;
+}
+
+.about h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: navy;
+    font-family: "Noto Serif Georgian",serif;
+}
+
+.work h2{
+font-size: 40px;
+color: navy;
+font-family: "Noto Serif Georgian",serif;
+}
+
 
 @media (max-width: 900px) {
 .hero {
